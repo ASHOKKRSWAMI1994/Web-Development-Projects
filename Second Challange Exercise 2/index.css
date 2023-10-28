@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    background-color:darkgray;
+    margin: 20px;
+}
+
+div p{
+        margin: 20px;
+        padding: 30px;
+}
+
+p:first-child{
+    background-color: yellow;
+    color:red;
+}
+
+p{
+    background-color: blue;
+    color: white;
+}

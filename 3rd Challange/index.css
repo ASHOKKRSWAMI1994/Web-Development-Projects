@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #dddddd;
+}
+
+
+.main_parent_div{
+    width: 370px;
+    height: 620px;
+    background-color: rgb(255, 246, 246);
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 15px;
+    border: 1.50px solid #c5c8c9c2;
+
+}
+
+.card-img{
+    margin: auto;
+    width: 96%;
+    height: 45%;
+    margin-top: 8px;
+    border-radius: 15px;
+    background-image: url(https://hobowithalaptop.com/wp-content/uploads/nomad-kid-800x1104.jpg);
+    background-size: cover;
+    
+}
+
+.nature-lacks-perents{
+    display: flex;
+    margin-left: 16px;
+    margin-top: 10px;
+
+}
+
+.nature-lake{
+    background-color: rgb(245, 240, 240);
+    margin: 6px;
+    padding: 6px 20px 6px 20px;
+    border: 1px solid rgba(221, 218, 218, 0.747);
+    border-radius: 40px;
+    text-align: center;
+    font-size: 15px;
+    color:#424242
+}
+
+.heading{
+    margin: 20px 0px 0px 18px;
+    font-family: Arial, sans-serif,'Arial Narrow','Franklin Gothic Medium';
+    padding-right: 20px;
+}
+.heading p{
+    color:#424242;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.button{
+    margin: auto;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.button input{
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    color: rgb(21, 109, 180);
+    background-color: rgba(212, 228, 240, 0.911);
+    font-weight: 700;
+    font-size:medium;
+    padding: 5px 10px 5px 10px;
+}
