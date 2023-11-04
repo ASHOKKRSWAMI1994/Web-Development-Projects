@@ -1,0 +1,139 @@
+:root{
+    --dark-theme:rgb(41, 38, 38);
+    --dark-theme-hover:rgb(59, 58, 58);
+    --dark-theme-border:rgb(39, 33, 33);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(192, 185, 185);
+}
+
+header {
+  background-color: var(--dark-theme);
+  width: 1360px;
+  height: 70px;
+  margin: auto;
+  padding-top: 10px;
+  display:flex;
+  position: sticky;
+  top:0;
+}
+.logo img{
+  margin-left: 30px;
+  margin-top: 6px;
+  border-radius: 50%;
+}
+.navbar{
+    background-position-y: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    margin-left: 30px;
+}
+nav ul a{
+    text-decoration: none;
+}
+nav ul li{
+    background-color:var(--dark-theme);
+    margin: 8px;
+    padding: 8px;
+    border: 0.10px solid var(--dark-theme-border) ;
+    color: white;
+    font-weight: 600;
+    
+}
+nav ul li:hover{
+    background-color: var(--dark-theme-hover);
+    
+    
+}
+
+main {
+  background-color: brown;
+  width: 1360px;
+  height: 900px;
+  margin: auto;
+  
+}
+
+
+
+.maincontantdiv {
+  background-color: rgb(2, 70, 64);
+  width: 1360px;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.maincontant1 {
+    background-color: blueviolet;
+    width: 500px;
+    height: 500px;
+    background-image: url(1img.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+
+  }
+
+  .maincontant2{
+    background-color: blueviolet;
+    width: 500px;
+    height: 500px;
+    background-image: url(2img.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+
+  }
+
+
+
+.welcomenotediv {
+  background-color: rgb(15, 21, 32);
+  width: 1100px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 130px;
+  border-radius: 20px;
+  color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 50px;
+  
+}
+
+.chat{
+  background-color: aqua;
+  width: 50px;
+  height: 50px;
+  background-image: url(chat.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 0.5px;
+  right: 2px;
+}
+
+footer {
+  background-color: rgb(23, 23, 24);
+  width: 1360px;
+  height: 50px;
+  margin: auto;
+  color:white;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}

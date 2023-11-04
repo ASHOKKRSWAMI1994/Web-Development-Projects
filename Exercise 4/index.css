@@ -1,10 +1,46 @@
+:root{
+    --dark-theme:rgb(41, 38, 38);
+    --dark-theme-hover:rgb(59, 58, 58);
+    --dark-theme-border:rgb(39, 33, 33);
+}
+
+
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 body{
     background-color: rgb(170, 161, 148);
-    margin: auto;
+    
+}
+
+
+header{
+    background-color:var(--dark-theme);
+}
+nav ul{
+    
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+}
+nav ul a{
+    text-decoration: none;
+}
+nav ul li{
+    background-color:var(--dark-theme);
+    margin: 8px;
+    padding: 8px;
+    border: 0.10px solid var(--dark-theme-border) ;
+    color: white;
+    font-weight: 600;
+    
+}
+nav ul li:hover{
+    background-color: var(--dark-theme-hover);
+    
+    
 }
