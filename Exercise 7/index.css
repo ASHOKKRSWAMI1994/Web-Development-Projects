@@ -1,0 +1,263 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .header {  
+    margin: auto;
+    
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1324px;
+    margin-left: 20px;
+    
+  
+  }
+  
+  /* set .logo */
+  .logo {
+    width: 185px;
+    height: 60px;
+    margin-top: 19px;
+    
+  }
+
+  .logo img {
+    margin-left: -115px;
+
+  }
+  
+  /* menu item container div */
+  .navmenubar {
+      width: 415px;
+      margin-top: 33px;
+      position:relative;
+      
+      
+  }
+  
+  .navmenubar ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style: none;
+    width: 533px;
+    margin-left: 263px;
+    
+    
+  }
+  
+  .navmenubar ul li{
+    margin-left: 1px;
+    width: 90px;
+  }
+
+  
+  /* set nav menu icon */
+  .navmenubar a {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+  
+  }
+  
+ /* language icon set */
+  .lang-li img {
+      margin-top: 8px;
+      
+  
+  }
+
+
+  
+  .downarrowincon {
+    margin-left: 8px;
+    margin-top: 10px;
+    
+  }
+
+  /* header part end css part */
+
+  /* main contant css start */
+
+  main{
+    margin: auto;
+    width: 1200px;
+    padding: 40px;
+    
+  }
+
+  /* section css set */
+
+  .grid-section{
+    margin: auto;
+    text-align: center;
+  }
+
+  .grid-section div{
+    padding: 10px;
+    margin: 10px;
+    font-size: 49px;
+    margin-top: 32px;
+    
+  }
+
+  .grid-section div img{
+    width: 112px;
+    height: 32px;
+  }
+.grid-section p{
+  font-size: 24px;
+  margin-top: 27px;
+}
+
+.grid-section button{
+  margin: 10px;
+  font-size: 14px;
+  margin-top: 32px;
+  background-color: #00B6D1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 293px;
+  height: 48px;
+  font-weight: 700;
+  margin-bottom: 49px;
+  
+}
+
+.gridheading{
+  margin: auto;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  margin-left: 2px;
+  margin-top: 30px;
+}
+
+.gridheading img{
+  margin-left: 78px;
+
+
+}
+
+
+.gridheading strong{
+  margin-left: 23px;
+  margin-right: 5px;
+  font-size: 24px;
+  font-weight: 450;
+  margin-top: -13px;
+}
+
+.small-text{
+  font-size: 14.40px;
+  margin-top: -5px;
+
+}
+
+
+/* container div css end */
+  .grid-Lang_containerdiv{
+    margin: auto;
+    width: 950px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+
+
+  }
+/* all languaage div set css */
+  .lang_div{
+    background-color: #abb8c321;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 14px 10px 14px;
+  }
+  .lang_div h3 {
+
+    font-size: 20px;
+    font-weight: 700;
+
+  }
+.download_flex_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+  /* all languaage div pargraph css set*/
+  .lang_div p{
+    font-size: 12px;
+  }
+
+  /* download 32 and 64 bit button css */
+
+  .download_link{
+    width: 125px;
+    height: 36.50px;
+    border-radius: 7px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+  }
+
+  .English{
+    margin-top: 16px;
+  }
+
+
+/* anchor tag css set */
+  .download_link a{
+    text-decoration: none;
+    color:white;
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .Download_32_bit{
+    background-color: #00B6D1;
+
+  }
+
+  .Download_64_bit{
+    background-color: #5cb85c;       
+    
+  }
+
+  .Download_32_bit:hover{
+    background-color: #00b5d1d0;
+    
+  }
+
+  .Download_64_bit:hover{
+    background-color: #5cb85cd0;
+    
+  }
+
+@media screen and (max-width:600px) {
+
+  .Lang_containerdiv{
+    margin: auto;    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    gap: 15px;
+
+
+  }
+  
+}
+
+  
