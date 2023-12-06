@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+   
+    margin: auto;
+    width: 1300px;
+    height: 450px;
+    background-color: blueviolet;
+    margin-top: 100px;
+
+
+    
+}
+
+.ball{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    position:absolute;
+    bottom: 94px;
+    left: 31px;
+    /* animation-name:animationY; */
+    /* animation-duration: 10s; */
+    /* animation-iteration-count: infinite;
+    animation-direction: reverse; */
+    animation: animationY 2s ease-out infinite alternate, animationX 20s linear infinite;
+      
+
+}
+
+@keyframes animationX {
+    from{      
+        left: 25px;        
+    }    
+    
+    to {  
+         
+        left: 1233px;   
+        
+    }    
+}
+
+@keyframes animationY {
+    
+    from{
+        bottom: 90px;        
+    }
+
+    to {
+        bottom: 443px;        
+    }      
+}

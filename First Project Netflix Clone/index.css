@@ -1,0 +1,418 @@
+/* default css settings */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+    color: white;
+
+}
+/* header section css code */
+header{
+    margin: auto;
+    width: 1349px;
+    height: 700px;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/a09bb938-2d90-42ae-986e-5a3e4abf9e77/8eb1e781-3494-4aa4-9405-268ca6473e4c/IN-en-20231113-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+
+}
+
+/* all header divs container css code */
+.header_container_div{
+    background-color: rgba(0, 0, 0, 0.682);
+    width: 1343px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+/* nav logo and sign in div css code */
+.nav_logo_sign_in_div{
+    
+    width: 1088px;
+    height: 65px;
+    margin-top: 0px;
+    position:absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+
+}
+/* logo div css */
+.logo_div {
+    width: 148px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-left: 32px;
+    margin-top: 22px;
+}
+
+/* Language and sign in  container div css*/
+.language_sign_in_div{
+    display: flex;
+    width: 261px
+}
+
+/* svg icon and select container div css */
+.svg-icon-with-language {
+    margin-right: 24px;
+    background-color: rgba(0, 0, 0, 0.300);
+    border: 1px solid rgba(255, 255, 255, 0.466);
+    width: 126px;
+    height: 32px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 23px;
+}
+
+/* Language svg icon css */
+.svg-icon-with-language span{
+    margin-right: -7px;
+    
+}
+
+.svg-icon-language {
+    width: 16px;
+    height: 16px;
+    margin: 0px 0px -2px -1px;
+}
+
+/* Language select option css */
+.svg-icon-with-language select{
+    
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    
+    
+}
+
+/* css code for sign in button */
+.language_sign_in_div button {
+    width: 79px;
+    height: 32px;
+    color: white;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 23px;
+}
+
+/* button hover css */
+.btn-hover:hover{
+    background-color: rgb(204, 6, 15);
+    cursor: pointer;
+}
+/* new updates and sraech css */
+.new-update-and-search{
+    width: 1023px;
+    height: 305px;
+    position: relative;
+    top: 245px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+/* new-update-and-search first heading css code */
+.new-update-and-search h1{
+    font-size: 46.80px;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    
+}
+
+/* new-update-and-search second heading css code */
+
+.new-update-and-search p{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+    margin-top: 16px;
+    
+}
+
+/* new-update-and-search third heading css code */
+
+.new-update-and-search h3{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+    margin-top: 25px;
+    
+}
+
+/* email text box and button css */
+
+.email-and-get-started{
+
+    width: 700px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin-top: 24px;
+
+}
+
+/* email text box css */
+.email-text-box {
+    width: 368.75px;
+    height: 56px;
+    margin-right: 10px;
+    background-color: #0000002f;
+    border-radius: 5px;
+    /* border: none; */
+    padding: 4px 6px 8px 20px;
+    color: rgb(255, 255, 255);
+    border: 1.5px solid rgba(255, 255, 255, 0.314);
+    font-size: 16px;
+
+}
+
+/* email button css */
+
+.email-and-get-started button{
+    width: 209px;
+    height: 56px;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    padding-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.email-and-get-started button span{
+    margin-top: -4px;
+    margin-right: 9px;
+}
+
+/* header css comlite */
+
+
+main{
+    margin: auto;
+    width: 1349px;
+   
+}
+
+
+/* part line css code */
+
+.part-line{
+    width: 1343px;
+    height: 8px;
+    background-color: rgb(35,35,35);
+}
+
+/* hero section design css code */
+
+.hero-section{
+width: 1343px;
+height: 527.17px;
+background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+/* hero section text div css */
+
+.hero-text-div{
+   
+    width: 512px;
+    height: 201px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -114px;
+    margin-top: -25px;
+   
+
+}
+
+/* hero section text div css */
+
+.hero-text-div h2 {
+    width: 507px;
+    font-size: 48px;
+    font-weight: 850;
+    margin-top: 25px;
+    margin-left: 241px;
+}
+
+.hero-text-div p{
+    width: 450px;
+    padding: 16px 0px;
+    font-size: 24px;
+    font-weight: 350;
+    margin-left: 183px;  
+
+}
+
+/* heero section image div css */
+
+.hero-image-div{
+    
+    width: 512px;
+    height: 379px; 
+    margin-left: 129px; 
+    
+}
+
+/* image and video setting css*/
+.hero-image-div img{
+    position: absolute;
+    top: 10;
+    /* margin-top: 25px;
+    margin-left: 60px; */
+    z-index: 10;
+
+}
+/* video */
+.hero-image-div video{
+    margin-top: 79px;
+    margin-left: 67px;
+}
+
+/* left image and right text div css*/
+
+/* image css */
+
+.left-image-div-right-text img{
+    margin-top: -11px;
+    margin-left: -122px;
+
+}
+
+/* h2 headding css */
+.left-image-div-right-text h2{
+    margin-top: 4px;
+    margin-left: 8px;
+    width: 524px;
+    font-size: 46.50px;
+
+}
+
+/* headding paragraph css */
+.left-image-div-right-text p{
+    margin-top: -4px;
+    margin-left: 8px;
+    width: 524px;
+
+}
+
+/* third section video div css  */
+
+.third-video {
+    width: 314px;
+    height: 163px;
+    margin-left: 94px;
+    margin-top: 56px;
+    overflow: hidden;
+
+}
+
+/* third section video css */
+
+.third-video video {
+    margin-top: -13px;
+    margin-left: -9px;
+    width: initial;
+    height: initial;
+}
+
+/* Frequently-Asked-Questions css */
+
+.Frequently-Asked-Questions{
+    width: 1349px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+/* Frequently-Asked-Questions heading css */
+
+.Frequently-Asked-Questions h1 {
+    font-size: 48px;
+    font-weight: 800;
+    
+}
+
+/* Frequently-Asked-Questions list css */
+
+.Frequently-Asked-Questions ul{
+    width: 1048px;
+    text-align: center;
+    
+}
+
+
+.Frequently-Asked-Questions ul li{
+    height: 84px;
+    text-align: start;
+    padding: 24px;
+    background-color: rgb(45 45 45);
+    margin: 10px;    
+    list-style: none;
+    color: rgb(214, 205, 205);
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    
+    
+}
+
+.Frequently-Asked-Questions ul li:hover{
+    
+    /* transform: scale(1.0001); */
+    transition-duration:1100ms;
+    background-color: rgb(68, 68, 68);
+
+}
+
+/* plus button css */
+
+.FAQ-plus-icon-button {
+    color: rgb(214, 205, 205);
+    font-size: 64px;
+    font-weight: 100;
+    text-align: right;
+    background-color: transparent;
+    border: none;
+    margin-left: 940px;
+    cursor: pointer;
+    position: absolute;
+    font-family: none;
+}
