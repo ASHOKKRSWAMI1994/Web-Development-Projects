@@ -21,7 +21,7 @@ header{
 /* all header divs container css code */
 .header_container_div{
     background-color: rgba(0, 0, 0, 0.682);
-    width: 1343px;
+    width: 1349px;
     height: 700px;
     display: flex;
     justify-content: center;
@@ -221,7 +221,7 @@ main{
 /* part line css code */
 
 .part-line{
-    width: 1343px;
+    width: 1349px;
     height: 8px;
     background-color: rgb(35,35,35);
 }
@@ -229,7 +229,7 @@ main{
 /* hero section design css code */
 
 .hero-section{
-width: 1343px;
+width: 1349px;
 height: 527.17px;
 background-color: black;
 display: flex;
