@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // random color generator function
 function grc() {
     let letters = '0123456789ABCDEF';
@@ -50,3 +51,5 @@ let container_background_color = grc();
 const pp = document .getElementsByClassName ("container")[0];
 pp.style.color = e_text_color;
 pp.style.backgroundColor = e_background_color;
+=======
+>>>>>>> parent of 9d1f6dd (my 12 exercise random color generator)

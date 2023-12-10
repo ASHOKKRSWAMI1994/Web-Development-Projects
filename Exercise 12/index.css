@@ -9,7 +9,7 @@ body{
     }
   .container{
     margin: auto;
-    width: 99%;
+    width: 95%;
     height: 10%;
     background-color: #52a3a3;
     display: flex;
@@ -18,14 +18,12 @@ body{
     flex-wrap: wrap;
   }
   .container_div{
-    width: 200px;
-    height: 200px;
+    width: 45px;
+    height: 50px;
     border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 5px;
     padding: 5px;
-    font-size: 40px;
-    font-weight: 900;
     }
