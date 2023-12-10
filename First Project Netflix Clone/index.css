@@ -10,7 +10,7 @@
 /* header section css code */
 header{
     margin: auto;
-    width: 1349px;
+    width: 1343px;
     height: 700px;
     background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/a09bb938-2d90-42ae-986e-5a3e4abf9e77/8eb1e781-3494-4aa4-9405-268ca6473e4c/IN-en-20231113-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
    background-repeat: no-repeat;
@@ -61,7 +61,7 @@ header{
 /* svg icon and select container div css */
 .svg-icon-with-language {
     margin-right: 24px;
-    background-color: rgba(0, 0, 0, 0.300);
+    background-color: rgba(51, 51, 51, 0.075);
     border: 1px solid rgba(255, 255, 255, 0.466);
     width: 126px;
     height: 32px;
@@ -87,7 +87,7 @@ header{
 /* Language select option css */
 .svg-icon-with-language select{
     
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(51, 51, 51, 0.060);
     color: white;
     border: none;
     font-size: 16px;
@@ -213,7 +213,7 @@ header{
 
 main{
     margin: auto;
-    width: 1349px;
+    width: 1343px;
    
 }
 
@@ -348,7 +348,7 @@ align-items: center;
 /* Frequently-Asked-Questions css */
 
 .Frequently-Asked-Questions{
-    width: 1349px;
+    width: 1343px;
     text-align: center;
     background-color: black;
     color: white;
@@ -421,7 +421,7 @@ align-items: center;
 
 footer{
     margin: auto;
-    width: 1349px;
+    width: 1343px;
 }
 
 .restart_membership{
@@ -442,15 +442,28 @@ footer{
 .footer_conaine_div{
     background-color: black;
     color: rgb(214, 205, 205);
-    padding-bottom: 36px;
+    padding-bottom: 60px;
 
 }
 
-.footer_conaine_div h4{
-    padding: 70px 10px 15px 155px;
+.footer_question_call{
+    background-color: black;
+    width: 1343px;
+
+}
+
+.footer_question_call h4{
+    margin-left: 154px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    
 }
 
 .list_div_footer_container_div{
+    width: 1024px;
+    margin-left: 50px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -458,6 +471,8 @@ footer{
 .list_div_footer ul{
     list-style: none;
     display: block;
+    font-size: 14px;
+    font-weight: 300;
     
 
 
