@@ -15,6 +15,10 @@ header{
     background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/a09bb938-2d90-42ae-986e-5a3e4abf9e77/8eb1e781-3494-4aa4-9405-268ca6473e4c/IN-en-20231113-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
    background-repeat: no-repeat;
    background-position: center center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
 
 }
 
@@ -25,6 +29,7 @@ header{
     height: 700px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
    
     
 }
@@ -38,6 +43,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
    
     
 
@@ -50,12 +56,14 @@ header{
     justify-content: center;
     margin-left: 32px;
     margin-top: 22px;
+    flex-wrap: wrap;
 }
 
 /* Language and sign in  container div css*/
 .language_sign_in_div{
     display: flex;
-    width: 261px
+    width: 261px;
+    flex-wrap: wrap;
 }
 
 /* svg icon and select container div css */
@@ -70,6 +78,7 @@ header{
     align-items: center;
     justify-content: space-evenly;
     margin-top: 23px;
+    flex-wrap: wrap;
 }
 
 /* Language svg icon css */
@@ -123,6 +132,7 @@ header{
     display: flex;
     align-items: center;
     flex-direction: column;
+    
 
 }
 
@@ -167,6 +177,7 @@ header{
     justify-content: center;
     align-items:center ;
     margin-top: 24px;
+    flex-wrap: wrap;
 
 }
 
@@ -235,6 +246,7 @@ background-color: black;
 display: flex;
 justify-content: center;
 align-items: center;
+flex-wrap: wrap;
 
 }
 
@@ -247,7 +259,8 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
     margin-left: -114px;
     margin-top: -25px;
    
@@ -261,7 +274,7 @@ align-items: center;
     font-size: 48px;
     font-weight: 850;
     margin-top: 25px;
-    margin-left: 241px;
+    margin-left: 109px;
 }
 
 .hero-text-div p{
@@ -269,7 +282,7 @@ align-items: center;
     padding: 16px 0px;
     font-size: 24px;
     font-weight: 350;
-    margin-left: 183px;  
+    margin-left: 109px;  
 
 }
 
@@ -357,6 +370,7 @@ align-items: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
 
 }
 
@@ -392,6 +406,7 @@ align-items: center;
     display: flex;
     justify-content:start;
     align-items: center;
+    flex-wrap: wrap;
     
     
 }
@@ -429,6 +444,7 @@ footer{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    flex-wrap: wrap;
     background-color: black;
     padding-bottom: 50px;
 }
@@ -466,6 +482,7 @@ footer{
     margin-left: 50px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .list_div_footer ul{
