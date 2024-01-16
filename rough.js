@@ -48,5 +48,19 @@
 // console.log(ashokswami);
 
 
-rendumNumbre = (Math.random()*6+2);
-console.log(rendumNumbre);
+// rendumNumbre = (Math.random()*6+2);
+// console.log(rendumNumbre*10);
+
+
+let arr = ["jpg.jpg","png.png","pdf.pdf","mp3.mp3","mp4.mp4","avi.avi"];
+console.log(arr[3]);
+// for (let i of arr) {
+//     console.log(i)
+    
+// }
+
+
+for (let i = 0; i<arr.length; i++){
+    console.log(arr[i]);
+}
+
